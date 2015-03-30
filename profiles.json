@@ -1,0 +1,49 @@
+[{
+	"username" : "gicela",
+	"avatar"  : "avatar_11",
+	"summer dream" : {
+		"country" : "?",
+		"plan": {
+				"activity" : "?",
+				"days"	: 0
+				 }
+		
+	},
+	"lists": {
+			"JS101 Interests" : ["SPA", "Backbone", "D3JS", "NodeJS"],
+			"Other Programming" : ["PHP", "Python", "HTML/CSS", "Git", "Wordpress", "Scratch", "Raspberry Pi", "Espruino"]
+	}
+	
+}, {
+	"username" : "kat",
+	"avatar"  : "avatar_6",
+	"summer dream" : {
+		"country" : "?",
+		"plan": {
+				"activity" : "?",
+				"days"	: 0
+				 }
+				 
+	},
+	"lists": {
+			"JS101 Interests" : ["SPA", "Backbone", "ReactJS", "D3JS", "NodeJS"],
+			"Other Programming" : ["PHP", "Python", "HTML/CSS", "Git", "Linux", "Basic SysAdmin", "SilverStripe", "Yii", "ReactJS"]
+	}
+},
+{
+	"username" : "ajara",
+	"avatar"  : "avatar_8",
+	"summer dream" : {
+		"country" : "Wales",
+		"plan": {
+				"activity" : "walking",
+				"days"	: 7
+				 }
+				 
+	},
+	"lists": {
+			"JS101 Interests" : ["SPA", "JSON", "jQuery"],
+			"Other Programming" : ["HTML/CSS", "Git", "CMS", "WP"],
+			"Other Interests" : ["Running", "Meditation", "All Things Design"]
+	}
+}]

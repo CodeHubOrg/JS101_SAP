@@ -1,0 +1,17 @@
+{
+    "username" : "ajara",
+	"avatar"  : "avatar_8",
+	"summer dream" : {
+		"country" : "Wales",
+		"plan": {
+				"activity" : "walking",
+				"days"	: 7
+				 }
+				 
+	},
+	"lists": {
+			"JS101 Interests" : ["SPA", "JSON", "jquery"],
+			"Other Programming" : ["HTML/CSS", "Git", "CMS", "WP"],
+			"Other Interests" : ["Running", "Meditation", "All Things Design"]
+	}
+}
