@@ -1,0 +1,17 @@
+{
+	"username" : "michael",
+	"avatar"  : "avatar_5",
+	"summer dream" : {
+		"country" : "?",
+		"plan": {
+				"activity" : "?",
+				"days"	: 0
+				 }
+		
+	},
+	"lists": {
+			"JavaScript interests" : ["NodeJS"],
+			"Other programming" : ["Perl", "Git", "Linux", "SQL", "C"],
+			"Other interests" : ["Cycling", "Sailing", "Films", "Reading"]
+	}
+}

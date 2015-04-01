@@ -1,0 +1,16 @@
+{
+	"username" : "katja",
+	"avatar"  : "avatar_6",
+	"summer dream" : {
+		"country" : "Italy",
+		"plan": {
+				"activity" : "",
+				"days"	: 7
+				 }
+				 
+	},
+	"lists": {
+			"JS101 Interests" : ["SPA", "Backbone", "ReactJS", "D3JS", "NodeJS"],
+			"Other Programming" : ["PHP", "Python", "HTML/CSS", "Git", "Linux", "Basic SysAdmin", "SilverStripe", "Yii", "ReactJS"]
+	}
+}

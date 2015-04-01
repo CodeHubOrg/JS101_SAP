@@ -5,39 +5,6 @@ var filters = {};
 ready(function(){
 		
 	// Interesting: If you do a for loop, you get into scope problems
-//	iterateCollection(inputEls)(function(inputEl, i){
-//		if(inputEl.type == "checkbox"){
-//			inputEl.addEventListener("click", function(){
-//				var specName = inputEl.getAttribute("name");
-//				if(inputEl.checked === true){
-//					// If the filter for this specification isn't created yet - do it. 
-//					if(!(filters[specName] && filters[specName].length)){
-//						filters[specName] = []; 
-//					}
-//					filters[specName].push(inputEl.value);
-//					console.log("ticked", filters);
-//					
-//					createQueryHash(filters);
-//				}
-//				if(inputEl.checked === false){
-//					if(filters[specName] && filters[specName].length && (filters[specName].indexOf(inputEl.value) != -1)){
-//						var index = filters[specName].indexOf(inputEl.value);
-//						filters[specName].splice(index,1);
-//						if(!filters[specName].length){
-//							delete filters[specName];___
-//						};
-//					}
-//					createQueryHash(filters);
-//				}
-//			})
-//		}
-//	})
-//
-//
-//	document.getElementById("filters").addEventListener("click", function(e){
-//		e.preventDefault();
-//		window.location.hash = '#';
-//	});
 
 
 	var singleprofilePage = document.getElementById("single-profile");
@@ -153,7 +120,7 @@ function renderprofilesPage(data){     // Yay! Got it!
    var listColl = getprofilesCollection();
 
    // This was very frustrating; buildprofileList had not executed yet, I had to move render('/') into 
-   // the getJSON function; tok ages to find out! - So there's a difference between elements already 
+   // the getJSON function; took ages to find out! - So there's a difference between elements already 
    // present in HTML, and those added by DOM Manipulation
    iterateCollection(listColl)(function(oneItem, i){
    		addClass(oneItem, 'hidden');
@@ -358,8 +325,6 @@ function iterateCollection (collection) {
   }
 }
 
-
-
 function isEmpty(obj) {
     return Object.keys(obj).length === 0;
 }
@@ -368,10 +333,6 @@ function isEmpty(obj) {
 function capitalize(theString){
 	return theString.charAt(0).toUpperCase() + theString.substring(1);
 }
-
-
-
-
 
 function buildprofileList(data){
    var profiles = document.getElementById("profiles");
@@ -402,27 +363,12 @@ function buildprofileList(data){
 
 
  	 var superp = document.createElement("p");
-   	 /*var superpSpan = document.createElement("span");
-   	 superpSpan.appendChild(document.createTextNode("Superpower: "))
-   	 superp.appendChild(superpSpan);
-   	 superpSpan.insertAdjacentHTML('afterend', obj.superpower.type + "<br />"); */
-     // Easier like this:
      var dream = obj['summer dream']
    	 superp.innerHTML = "<span>Summer Dream</span> <br /> \
    	 <span>Country:</span> " + dream.country + " <br /> \
      <span>Plan:</span> " + dream.plan.days + " Days " + dream.plan.activity;
      elementsArray.push(superp);
 
-
-//   	 var list = document.createElement("ul");
-//   	 addClass(list, "profile-description");
-//   	 var proglists = {
-//   	 	"JavaScript interests" : obj.lists["JavaScript interests"],
-//   	 	"Other programming" : obj.lists["Other programming"]
-//   	 }
-//   	 var html = printLists(proglists);
-//   	 list.innerHTML = html;
-//   	 elementsArray.push(list);  
 
    	 // instead of for loop, we can use foreach
    	 elementsArray.forEach(function(element){
@@ -493,3 +439,4 @@ function getJSON(url, callback){
 
 	request.send();
 }
+

@@ -1,0 +1,17 @@
+{
+	"username" : "gicela",
+	"avatar"  : "avatar_11",
+	"summer dream" : {
+		"country" : "?",
+		"plan": {
+				"activity" : "?",
+				"days"	: 0
+				 }
+		
+	},
+	"lists": {
+			"JS101 Interests" : ["SPA", "Backbone", "D3JS", "NodeJS"],
+			"Other Programming" : ["PHP", "Python", "HTML/CSS", "Git", "Wordpress", "Scratch", "Raspberry Pi", "Espruino"]
+	}
+	
+}
