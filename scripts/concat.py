@@ -23,4 +23,4 @@ for file in  profiles:
 profile_list.write("]")
 
 
-print ("concatenated profiles")
+print("concatenated profiles")
