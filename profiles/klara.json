@@ -1,0 +1,17 @@
+{
+    "username" : "klara",
+	"avatar"  : "avatar_7",
+	"summer dream" : {
+		"country" : "Southern France",
+		"plan": {
+				"activity" : "walking",
+				"days"	: 7
+				 }
+				 
+	},
+	"lists": {
+			"JS101 Interests" : ["JS", "JSON", "jquery"],
+			"Other Programming" : ["HTML/CSS", "SASS", "Git", "WP"],
+			"Other Interests" : ["Typography", "Cycling", "Travelling", "Loving life"]
+	}
+}
