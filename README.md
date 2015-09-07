@@ -1,7 +1,7 @@
 # JS101_SPA
 Single page app for practice
 
-This is a site for practice purpose. Adding js functionality as we go along. 
+This is a site for practice purpose. Adding js functionality as we go along. You can see the live site at [http://js101.codehub.org.uk/](http://js101.codehub.org.uk/)
 
 ###To add your profile:
 
